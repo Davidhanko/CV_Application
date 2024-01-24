@@ -3,7 +3,7 @@ import './App.css'
 import GeneralCard from "./GeneralCard.jsx";
 import GeneralCV from "./GeneralCV.jsx";
 
-function App() {
+function Index() {
     const [person, setPerson] = useState({name: '', surname: '', email: '', phoneNumber: '', address: ''})
 
     function onChange(e) {
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default Index
